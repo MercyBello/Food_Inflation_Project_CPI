@@ -50,37 +50,38 @@ By combining **technical depth** (data engineering, EDA, forecasting with SARIMA
 
 1. Clone this repository (Git Bash was used):
 
-bash
+```bash
 git clone https://github.com/your-username/uk-food-inflation-forecasting.git
 cd uk-food-inflation-forecasting
-
+```
 
 2. Create and activate a virtual environment:
 
-bash
+```bash
 python -m venv .venv
 
 .venv\Scripts\activate (For Windows)
 source .venv/bin/activate (For macOS/Linux)
-
+```
 
 3. Create a txt folder in your file directory (requirements.txt)
 paste the following in an ordinary list format in the txt file (requirements.txt)
-pandas
-numpy
-matplotlib
-prophet
-scikit-learn
-streamlit
+-pandas
+-numpy
+-matplotlib
+-prophet
+-scikit-learn
+-streamlit
 
 Run this code line to install all requirements
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 4. Use your preferred notebook
 
    
 5. Launch the Streamlit dashboard
-bash
+```bash
 streamlit run app/streamlit_app.py
+```
