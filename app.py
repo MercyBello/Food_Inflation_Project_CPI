@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import mean_absolute_percentage_error, mean_squared_error
@@ -17,13 +18,14 @@ st.set_page_config(page_title="UK Food Inflation Dashboard", page_icon="📈", l
 # -------------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv(
-        "C:/Users/USER/Desktop/AI ALL/Food_Inflation_Project_CPI/cleaned_cpi.csv",
-        parse_dates=["date"]
-    )
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    csv_path = os.path.join(BASE_DIR, "cleaned_cpi.csv")
+    df = pd.read_csv(csv_path, parse_dates=["date"])
     return df
 
+# Load the dataset
 df = load_data()
+
 
 st.title("UK Food Inflation Dashboard")
 st.markdown(
