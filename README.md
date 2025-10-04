@@ -6,9 +6,13 @@ I built this project to project transforms official **UK Consumer Price Index (C
 
 My project demonstrates a **complete analytics workflow** used in real-world data science projects
 
--  Data cleaning and transformation  
--  Exploratory Data Analysis (EDA)  
--  Time-series modelling (**Naïve**, **Seasonal-Naïve**, **SARIMA**, **Prophet**)  
+## 🔍 Project Overview
+- **EDA:** Explore inflation trends by category and over time
+- Time-series modelling (**Naïve**, **Seasonal-Naïve**, **SARIMA**, **Prophet**) 
+- **Baseline Models:** Naïve, Seasonal Naïve
+- **Advanced Models:** SARIMA, Prophet
+- **Downloadable Results:** Forecast CSV export
+- **Live App:** [View Dashboard Here](https://foodinflationprojectcpi.streamlit.app/)  
 -  Model evaluation with industry-standard metrics (**MAPE**, **RMSE**)  
 -  Deployment preparation using **Streamlit** for interactive visual insights  
 
