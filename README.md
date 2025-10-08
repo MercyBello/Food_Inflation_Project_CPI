@@ -12,7 +12,7 @@ My project demonstrates a **complete analytics workflow** used in real-world dat
 - **Baseline Models:** Naïve, Seasonal Naïve
 - **Advanced Models:** SARIMA, Prophet
 - **Downloadable Results:** Forecast CSV export
-- **Live App:** [View Dashboard Here](https://foodinflationprojectcpi.streamlit.app/)  
+- **Live App:** [View Dashboard Here](https://foodinflationprojectcpi-dd2o8sy4buzh66lwyikhon.streamlit.app/)  
 -  Model evaluation with industry-standard metrics (**MAPE**, **RMSE**)  
 -  Deployment preparation using **Streamlit** for interactive visual insights  
 
